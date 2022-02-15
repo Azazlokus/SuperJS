@@ -5,6 +5,14 @@
     --bg2: #111;
 }
 
+section {
+    padding: 100px 0;
+}
+
+p {
+    font-size: 18px;
+}
+
 .color1 {
     color: var(--color1)
 }
@@ -19,6 +27,14 @@
 
 .bg2 {
     background-color: var(--bg2);
+}
+
+.for {
+    background-color: #070707;
+}
+
+.programm {
+    background-color: #111;
 }
 
 header,
@@ -37,4 +53,22 @@ footer {
 
 .img-std {
     max-width: 400px;
+}
+
+.for-txt {
+    color: #fff;
+    font-weight: bold;
+}
+
+.for-txt p {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+.btn {
+    max-width: 200px;
+    margin: 20px auto;
+    font-weight: bold;
+    padding: 10px;
 }
