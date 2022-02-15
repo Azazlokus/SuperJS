@@ -1,0 +1,74 @@
+:root {
+    --color1: #eebb12;
+    --color2: #fff;
+    --bg1: #070707;
+    --bg2: #111;
+}
+
+section {
+    padding: 100px 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+.color1 {
+    color: var(--color1)
+}
+
+.color2 {
+    color: var(--color2)
+}
+
+.bg1 {
+    background-color: var(--bg1);
+}
+
+.bg2 {
+    background-color: var(--bg2);
+}
+
+.for {
+    background-color: #070707;
+}
+
+.programm {
+    background-color: #111;
+}
+
+header,
+footer {
+    background: url(/IMG/pattern.png), var(--color1);
+    background: url(/IMG/pattern.png), -moz-linear-gradient(left, var(--bg1) 0%, var(--color2) 100%);
+    background: url(/IMG/pattern.png), -webkit-linear-gradient(left, var(--bg1) 0%, var(--color2) 100%);
+    background: url(/IMG/pattern.png), linear-gradient(to right, var(--bg1) 0%, var(--color2) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#120416', endColorstr='#7db9e8', GradientType=1);
+    background-size: contain;
+}
+
+.author section {
+    padding: 100px 0;
+}
+
+.img-std {
+    max-width: 400px;
+}
+
+.for-txt {
+    color: #fff;
+    font-weight: bold;
+}
+
+.for-txt p {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+.btn {
+    max-width: 200px;
+    margin: 20px auto;
+    font-weight: bold;
+    padding: 10px;
+}
