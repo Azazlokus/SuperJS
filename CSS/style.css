@@ -6,11 +6,16 @@
 }
 
 section {
-    padding: 100px 0;
+    padding: 100px 100px;
 }
 
 p {
     font-size: 18px;
+    color: #fff;
+}
+
+h5 {
+    color: #eebb12;
 }
 
 .color1 {
@@ -21,24 +26,31 @@ p {
     color: var(--color2)
 }
 
+.for,
+.faq,
+footer,
 .bg1 {
     background-color: var(--bg1);
 }
 
+footer {
+    padding: 30px 100px;
+}
+
+.buy,
 .bg2 {
     background-color: var(--bg2);
 }
 
-.for {
-    background-color: #070707;
+.faq {
+    padding: 100px 200px;
 }
 
 .programm {
     background-color: #111;
 }
 
-header,
-footer {
+header {
     background: url(/IMG/pattern.png), var(--color1);
     background: url(/IMG/pattern.png), -moz-linear-gradient(left, var(--bg1) 0%, var(--color2) 100%);
     background: url(/IMG/pattern.png), -webkit-linear-gradient(left, var(--bg1) 0%, var(--color2) 100%);
@@ -67,8 +79,11 @@ footer {
 }
 
 .btn {
-    max-width: 200px;
+    font-size: 18px;
+    width: 200px;
     margin: 20px auto;
     font-weight: bold;
     padding: 10px;
+    background-color: var(--color1);
+    border-radius: 0.3rem;
 }
