@@ -11,6 +11,11 @@ section {
 
 p {
     font-size: 18px;
+    color: #fff;
+}
+
+h5 {
+    color: #eebb12;
 }
 
 .color1 {
@@ -29,8 +34,13 @@ p {
     background-color: var(--bg2);
 }
 
-.for {
+.for,
+.faq {
     background-color: #070707;
+}
+
+.faq {
+    padding: 100px 200px;
 }
 
 .programm {
